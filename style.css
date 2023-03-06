@@ -20,11 +20,6 @@ h1 {
     font-size: 5rem;
 }
 
-.listfordiv {
-    width: 100%;
-    text-align: center;
-}
-
 .listing {
     display: inline-block;
     font-size: 35px;
@@ -44,7 +39,6 @@ li a {
 li a:hover {
     color: #D460CF;
     text-shadow: 5px 5px 5px #6E0069;
-    
 }
 
 footer {
@@ -52,6 +46,7 @@ footer {
     text-align: center;
     text-decoration: none;
 }
+
 .copyright {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
