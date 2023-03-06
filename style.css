@@ -20,30 +20,34 @@ h1 {
     font-size: 5rem;
 }
 
-h2.miniheader{
+.listfordiv {
+    width: 100%;
     text-align: center;
-    text-decoration: underline;
-    font-size: 2em;
 }
 
-#back {
-    font-size: 20px;
+.listing {
+    display: inline-block;
+    font-size: 35px;
+    padding: 15;
+}
+
+li {
+    margin: 35px;
+    text-align: center;
+}
+
+li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
-#back:hover {
-    font-size: 25px;
+li a:hover {
+    color: #D460CF;
+    text-shadow: 5px 5px 5px #6E0069;
+    
 }
 
-#trafficLight {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: black;
-  }
-
-  footer {
+footer {
     padding-top: 50px;
     text-align: center;
     text-decoration: none;

@@ -22,32 +22,16 @@ h1 {
 
 h2.miniheader{
     text-align: center;
-    text-decoration: underline;
-    font-size: 2em;
-}
-
-#back {
-    font-size: 20px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    font-size: 1.5em;
 }
 
-#back:hover {
-    font-size: 25px;
-}
-
-#trafficLight {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: black;
-  }
-
-  footer {
+footer {
     padding-top: 50px;
     text-align: center;
     text-decoration: none;
 }
+
 .copyright {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
@@ -60,4 +44,20 @@ h2.miniheader{
 
 .copyright a:hover {
     color: #D460CF;
+}
+
+.Text {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+#back {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#back:hover {
+    font-size: 25px;
 }

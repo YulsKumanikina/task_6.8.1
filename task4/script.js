@@ -4,3 +4,4 @@ userTextField.addEventListener('click', function (event) {
     const userTextField = document.querySelector('#userTextField'); 
     userTextField.textContent = userText; 
 })
+// Сайт гугл в внесла для проверки, что js сработал.

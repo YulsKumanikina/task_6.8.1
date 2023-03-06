@@ -15,6 +15,9 @@ const showPrompt = document.querySelector('#prompt');
 showPrompt.addEventListener('click', () => {
     alert('При помощи функции prompt() можно вывести на экран пользователя модальное окно c полем ввода и текстом-пояснением.')
 })
+
+// Добавила кнопку с переходом в модальное окно с опросом
+
 function checkAnswer() {
     var result = prompt ('Как вас зовут?', 'Имя');
     if (result === null) {
@@ -23,6 +26,4 @@ function checkAnswer() {
     else if (result.length > 0) {
         document.querySelector('#answer').textContent = 'Здравствуйте,' + result;
     }
-
-
 }
